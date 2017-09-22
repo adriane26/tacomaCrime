@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
+import Top10Crimes from './Top10Crimes.js';
+import Bottom10Crimes from './Bottom10Crimes.js';
+import MostDangerousStreets from './MostDangerousStreets.js';
 import '../App.css';
 
 class Layout extends Component {
   render() {
     return (
     	<div>
-    		<div>
-    			<h1>Types of Crimes</h1>
-    		</div>
-    		<div>
-    			<h1>10 Most Common Crimes</h1>
-    		</div>
-    		<div>
-    			<h1>10 Least Common Crimes</h1>
-    		</div>
+    		<Top10Crimes />
+    		<Bottom10Crimes />
+    		<MostDangerousStreets />
     	</div>
     );
   }
